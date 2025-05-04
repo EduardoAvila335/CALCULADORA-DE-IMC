@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CALCULADORA DE IMC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+       
+    <header>
+       <img src="736663fe6f9e03fcb39ace9020c42b4c-icone-estacionario-da-calculadora-removebg-preview.png" alt="calculadora de imcs"> 
+       <h1>CALCULADORA DE IMC</h1> 
+    </header>
+   
+    <main>
+        <section>
+    <h2>Qual sua altura?</h2>
+        <input type="text"
+        id="altura" name="altura">
+    <h2>Qual seu peso?</h2>    
+        <input type="text" 
+        id="peso" name="peso"><br><br><br>
+         </section>
+         <section>
+        <button onclick="calcular()">CALCULAR</button>
+        <p id="resultado"></p>
+          </section>
+          <div class="qualseuimc">
+            <img src="imc_06.png.webp" alt="homen de azul">
+            <p>18,5 ou menos <strong>Abaixo do normal</strong><br><br>
+
+                Procure um médico. Algumas pessoas têm um baixo peso por características 
+                do seu organismo e tudo bem. Outras podem estar enfrentando problemas, como a 
+                desnutrição.
+                 É preciso saber qual é o caso.
+            </p>
+            <img src="imc_05.png.webp" alt="homende azul escuro">
+            <p>Entre 18,6 e 24,9 <strong>Normal</strong><br><br>
+
+                Que bom que você está com o peso normal! E o melhor jeito de continuar assim 
+                é mantendo um estilo de vida ativo e uma alimentação equilibrada.</p>
+              <img src="imc_04.png.webp" alt="homen de laranja">  
+              <p>Entre 25,0 e 29,9 <strong>sobrepeso</strong><br><br>
+
+
+                Ele é, na verdade, uma pré-obesidade e muitas pessoas nessa faixa já apresentam doenças associadas, como diabetes e hipertensão. Importante rever hábitos e buscar ajuda antes de, por uma série de fatores, 
+                entrar na faixa da obesidade pra valer.</p>
+                <img src="imc_03.png.webp" alt="homen com obesidade grau I">
+                <p>Entre 30,0 e 34,9
+                    <strong>Obesidade grau I</strong><br><br>
+                    Sinal de alerta! Chegou na hora de se cuidar, mesmo que seus exames sejam normais. Vamos dar início a mudanças hoje! Cuide de sua alimentação. 
+                    Você precisa iniciar um acompanhamento com nutricionista e/ou endocrinologista.</p>
+                <img src="imc_02.png.webp" alt="homen com obesidade grau II">
+                <p>Entre 35,0 e 39,9
+                    <strong>Obesidadegrau II </strong><br><br>
+
+
+                    Mesmo que seus exames aparentem estar normais, é hora de se cuidar, iniciando 
+                    mudanças no estilo de vida com o acompanhamento próximo de profissionais de saúde.</p>
+                <img src="imc_01.png.webp" alt="homen com obesidade grau III">
+                <p>Acima de 40,0
+                    <strong>Obesidade grau III</strong> <br><br>
+
+                    Aqui o sinal é vermelho, com forte probabilidade de já existirem 
+                    doenças muito graves associadas. O tratamento deve ser ainda mais urgente.</p>
+          </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+  
+<footer>
+    <p>&copy;Copyright Eduardo, todos os direitos reservados.</p>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+</html>

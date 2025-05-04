@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(16, 22, 22);
+}
+
+div{
+   padding: 2rem;
+}
+
+header{
+    text-align: center;
+    background-color: rgb(27, 15, 15);
+    padding: 2rem;
+    font-size: 2rem;
+    color: lightgoldenrodyellow;
+}
+
+
+h2{
+    color: lightgoldenrodyellow;
+}
+
+
+input{
+    width: 30rem;
+    border-radius: 10px;
+}
+
+main{
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+section button{
+    font-size: 2rem;
+    padding: 5px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    color: lightgoldenrodyellow;
+    background-color: grey;
+    cursor: pointer;
+}
+
+img{
+   padding: 2rem;
+   width: 10rem;
+   
+}
+
+
+
+main p{
+    text-align: center;
+    color: lightgoldenrodyellow;
+    font-size: 5rem;
+}
+
+.qualseuimc p{
+   font-size: 1.5rem;
+   color: rgb(255, 255, 255);
+}
+
+.qualseuimc img{
+    padding: 2rem;
+    width: 10rem;
+    background-color: aliceblue;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px; 
+}
